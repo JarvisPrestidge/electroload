@@ -12,5 +12,6 @@ node_modules/
 
 # typescript
 src/
+**/*.js.map
 tsconfig.json
 tslint.json

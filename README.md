@@ -30,4 +30,6 @@ Other hot-reloading solutions didn't provide typing support and lacked the abili
 
 Changelog
 ---
+ - **1.0.2**: Fixing typings by adding imported types to `"dependencies"` from `"devDependencies"` 
+ - **1.0.1**: Add readme + general code clean up
  - **1.0.0**: Initial release

@@ -1,6 +1,6 @@
 {
     "name": "electroload",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Electro-load is a hot-reloading module for electron single page web-apps",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -23,10 +23,13 @@
         "url": "https://github.com/jarvisprestidge/electrode/issues"
     },
     "dependencies": {
+        "@types/chokidar": "^1.7.5",
         "chokidar": "^2.0.3",
         "electron": "^1.8.4"
     },
     "devDependencies": {
-        "@types/chokidar": "^1.7.5"
+        "tslint": "^5.9.1",
+        "tslint-config-prettier": "^1.10.0",
+        "typescript": "^2.8.1"
     }
 }
