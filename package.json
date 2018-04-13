@@ -1,0 +1,32 @@
+{
+    "name": "electroload",
+    "version": "1.0.0",
+    "description": "Electron hot-reloading module specifically for offline single page apps",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Jarvis Prestidge (jarvisprestidge@gmail.com)",
+    "license": "MIT",
+    "scripts": {
+        "clean": "rm -rf dist",
+        "build": "npm run clean && tsc -p .",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "electron",
+        "typescript",
+        "reload",
+        "hotreload",
+        "node",
+        "spa"
+    ],
+    "bugs": {
+        "url": "https://github.com/jarvisprestidge/electrode/issues"
+    },
+    "dependencies": {
+        "chokidar": "^2.0.3",
+        "electron": "^1.8.4"
+    },
+    "devDependencies": {
+        "@types/chokidar": "^1.7.5"
+    }
+}
