@@ -1,7 +1,7 @@
 {
     "name": "electroload",
-    "version": "1.0.0",
-    "description": "Electron hot-reloading module specifically for offline single page apps",
+    "version": "1.0.1",
+    "description": "Electro-load is a hot-reloading module for electron single page web-apps",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "author": "Jarvis Prestidge (jarvisprestidge@gmail.com)",

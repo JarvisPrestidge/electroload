@@ -1,16 +1,16 @@
-# root level hidden files
+# hidden files
 .*
 
 # version control
 .git/
 
-# editor configuration
+# editor specific
 .vscode/
 
 # dependencies
 node_modules/
 
-# typescript related
+# typescript
 src/
 tsconfig.json
 tslint.json
